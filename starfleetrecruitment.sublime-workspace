@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
+				"header",
+				"header-colour"
+			],
+			[
+				"f",
+				"fcf3cf"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"sty",
+				"styles"
+			],
+			[
 				"con",
 				"container"
 			],
@@ -112,10 +148,6 @@
 				"keydown"
 			],
 			[
-				"back",
-				"background-size"
-			],
-			[
 				"flex-",
 				"flex-flow"
 			],
@@ -126,10 +158,6 @@
 			[
 				"repeat",
 				"repeat-x"
-			],
-			[
-				"bac",
-				"background-size"
 			],
 			[
 				"backgro",
@@ -210,10 +238,6 @@
 			[
 				"fig",
 				"figcaption\tTag"
-			],
-			[
-				"di",
-				"div\tTag"
 			],
 			[
 				"d",
@@ -300,34 +324,78 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<title>Starfleet</title>\n\t<!--<link rel=\"stylesheet/less\" type=\"text/css\" href=\"styles.less\" />\n\t<script src=\"//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js\" ></script>-->\n\t<link rel=\"stylesheet\" href=\"styles.min.css\">\n\t<link href=\"https://fonts.googleapis.com/css?family=Exo\" rel=\"stylesheet\"> \n</head>\n<body>\n\t<header class=\"hero\">\n\t\t<div class=\"hero-text\">\n\t\t<h1>Starfleet</h1>\n\t\t<h2>Ex Astris, Scientia</h2></div>\n\t</header>\n\t<main>\n\t\t<section class=\"command\">\n\t\t\t<h3 class=\"yellow\">Majors</h3>\n\t\t\tAdvanced Theoretical Physics\n\t\t\tAstrophysics\n\t\t\tCommand and Control\n\t\t\tEngineering\n\t\t\tExoarchaeology\n\t\t\tExobiology\n\t\t\tMedicine\n\t\t\tProbability mechanics\n\t\t\tXenolinguistics\n\t\t\tZoology\n\t\t\t<article></article>\n\t\t</section>\n\t\t<section class=\"ops\">\n\t\t\t<h3 class=\"blue\">Entrance requirements</h3>\n\t\t\t<article>Entrance exam. This looks for qualities we expect in Starfleet officers: integrity, intelligence, courage, imagination and leadership qualities. You should expect the unexpected during the exam. The exam is open to all Federation citizens, and to non-Federation citizens with a letter of reference from a command level Starfleet officer.</article>\n\t\t</section>\n\t\t<section class=\"science\">\n\t\t\t<h3 class=\"red\">Recruitment office locations</h3>\n\t\t\t<article>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>San Fransico, Earth</li>\n\t\t\t\t\t<li>College of Science, Academy</li>\n\t\t\t\t\t<li>Beta Aquilae II</li>\n\t\t\t\t\t<li>Beta Ursae Minor II</li>\n\t\t\t\t\t<li>Relva III</li>\n\t\t\t\t\t<li>Psi Episilon III</li>\n\t\t\t\t\t<li>ShiKahr, Vulcan</li>\n\t\t\t\t</ul>\n\t\t</article>\n\t\t</section>\n\t</main>\n</body>\n</html>",
 			"file": "starfleetrecruitment.html",
+			"file_size": 1605,
+			"file_write_time": 132020764666945820,
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 1605,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html>"
 			}
+		},
+		{
+			"file": "styles.less",
+			"settings":
+			{
+				"buffer_size": 590,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/lessc/lessc.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					""
+				],
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					"Minify"
+				]
+			],
+			[
+				"Packages/LESS-build/LESS.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/lessc/lessc.sublime-build",
+					""
+				],
+				[
+					"Packages/lessc/lessc.sublime-build",
+					"Non-Minified"
+				]
+			],
+			[
+				"Packages/lessc/lessc.sublime-build",
+				"Non-Minified"
+			]
+		]
 	],
-	"build_varint": "",
+	"build_varint": "Non-Minified",
 	"command_palette":
 	{
-		"height": 154.0,
-		"last_filter": "termain",
+		"height": 374.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"termain",
-				"Terminal View: Open Bash Terminal"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
+			],
+			[
+				"termain",
+				"Terminal View: Open Bash Terminal"
 			],
 			[
 				"install",
@@ -364,9 +432,10 @@
 	},
 	"file_history":
 	[
+		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.css",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.html",
-		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.css",
+		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
 		"/home/paranoidangel/Projects/Shut The Box/index.html",
 		"/home/paranoidangel/Projects/DOM/access.html",
 		"/home/paranoidangel/Projects/Tribute/tribute.html",
@@ -400,7 +469,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -439,7 +508,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -448,21 +517,49 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 1605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								1545,
+								1545
 							]
 						],
 						"settings":
 						{
 							"auto_name": "<!DOCTYPE html>",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 416.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -476,7 +573,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -509,15 +606,19 @@
 	{
 		"height": 0.0
 	},
+	"output.exec":
+	{
+		"height": 108.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/lessc/lessc.sublime-build",
 	"project": "starfleetrecruitment.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
