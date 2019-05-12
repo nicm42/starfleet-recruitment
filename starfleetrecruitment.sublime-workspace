@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"t",
+				"transform\tproperty"
+			],
+			[
+				"di",
+				"diplomacy"
+			],
+			[
 				"bac",
 				"background-color"
 			],
@@ -24,16 +52,8 @@
 				"font-style\tproperty"
 			],
 			[
-				"di",
-				"display\tproperty"
-			],
-			[
 				"text-a",
 				"text-align\tproperty"
-			],
-			[
-				"back",
-				"background-color\tproperty"
 			],
 			[
 				"sty",
@@ -42,14 +62,6 @@
 			[
 				"con",
 				"container"
-			],
-			[
-				"in",
-				"initialSize"
-			],
-			[
-				"tra",
-				"transitionTime"
 			],
 			[
 				"tr",
@@ -228,10 +240,6 @@
 				"max-width"
 			],
 			[
-				"flex",
-				"flex-wrap"
-			],
-			[
 				"paddng",
 				"padding-left"
 			],
@@ -324,13 +332,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<title>Starfleet</title>\n\t<!--<link rel=\"stylesheet/less\" type=\"text/css\" href=\"styles.less\" />\n\t<script src=\"//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js\" ></script>-->\n\t<link rel=\"stylesheet\" href=\"styles.min.css\">\n\t<link href=\"https://fonts.googleapis.com/css?family=Exo\" rel=\"stylesheet\"> \n</head>\n<body>\n\t<header class=\"hero\">\n\t\t<div class=\"hero-text\">\n\t\t<h1>Starfleet</h1>\n\t\t<h2>Ex Astris, Scientia</h2></div>\n\t</header>\n\t<main>\n\t\t<section class=\"command\">\n\t\t\t<h3 class=\"yellow\">Majors</h3>\n\t\t\tAdvanced Theoretical Physics\n\t\t\tAstrophysics\n\t\t\tCommand and Control\n\t\t\tEngineering\n\t\t\tExoarchaeology\n\t\t\tExobiology\n\t\t\tMedicine\n\t\t\tProbability mechanics\n\t\t\tXenolinguistics\n\t\t\tZoology\n\t\t\t<article></article>\n\t\t</section>\n\t\t<section class=\"ops\">\n\t\t\t<h3 class=\"blue\">Entrance requirements</h3>\n\t\t\t<article>Entrance exam. This looks for qualities we expect in Starfleet officers: integrity, intelligence, courage, imagination and leadership qualities. You should expect the unexpected during the exam. The exam is open to all Federation citizens, and to non-Federation citizens with a letter of reference from a command level Starfleet officer.</article>\n\t\t</section>\n\t\t<section class=\"science\">\n\t\t\t<h3 class=\"red\">Recruitment office locations</h3>\n\t\t\t<article>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>San Fransico, Earth</li>\n\t\t\t\t\t<li>College of Science, Academy</li>\n\t\t\t\t\t<li>Beta Aquilae II</li>\n\t\t\t\t\t<li>Beta Ursae Minor II</li>\n\t\t\t\t\t<li>Relva III</li>\n\t\t\t\t\t<li>Psi Episilon III</li>\n\t\t\t\t\t<li>ShiKahr, Vulcan</li>\n\t\t\t\t</ul>\n\t\t</article>\n\t\t</section>\n\t</main>\n</body>\n</html>",
 			"file": "starfleetrecruitment.html",
-			"file_size": 1605,
-			"file_write_time": 132020764666945820,
 			"settings":
 			{
-				"buffer_size": 1605,
+				"buffer_size": 2604,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html>"
@@ -340,7 +345,7 @@
 			"file": "styles.less",
 			"settings":
 			{
-				"buffer_size": 590,
+				"buffer_size": 1410,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -382,7 +387,7 @@
 			]
 		]
 	],
-	"build_varint": "Non-Minified",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 374.0,
@@ -517,15 +522,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1605,
+						"buffer_size": 2604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1545,
-								1545
+								2532,
+								2532
 							]
 						],
 						"settings":
@@ -534,7 +539,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 416.0,
+						"translation.y": 671.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -546,15 +551,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 590,
+						"buffer_size": 1410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								198
+								1385,
+								1385
 							]
 						],
 						"settings":
@@ -562,7 +567,7 @@
 							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1215.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

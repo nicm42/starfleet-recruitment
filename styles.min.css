@@ -4,7 +4,9 @@ body {
 .hero {
   height: 90vh;
   background: url("./images/header.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,5 +37,59 @@ h3 {
 }
 .blue {
   background-color: #2196f3;
+}
+.careers {
+  display: flex;
+  text-align: center;
+}
+.carousel {
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 5px 0 5px;
+}
+.arrow {
+  color: black;
+  font-size: 200px;
+  align-self: center;
+}
+.starmap {
+  text-align: center;
+  position: relative;
+}
+.starmap img {
+  max-width: 100%;
+  height: auto;
+}
+.location {
+  position: absolute;
+  color: #fcf3cf;
+}
+#earth {
+  left: 48%;
+  top: 55%;
+}
+#academy {
+  left: 63%;
+  top: 82%;
+}
+#beta-aquilae {
+  left: 10%;
+  top: 29%;
+}
+#beta-ursae-minor {
+  left: 65%;
+  top: 29%;
+}
+#relva {
+  left: 82%;
+  top: 69%;
+}
+#psi-epsilon {
+  left: 25%;
+  top: 74%;
+}
+#vulcan {
+  left: 34%;
+  top: 29%;
 }
 /*# sourceMappingURL=styles.min.css.map */
