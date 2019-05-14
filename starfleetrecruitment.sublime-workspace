@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"que",
+				"querySelectorAll\t(selector: string) => NodeList<HTMLElement>"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"inv",
+				"inventor\tany"
+			],
+			[
 				"flex",
 				"flex-wrap\tproperty"
 			],
 			[
 				"min",
 				"min-height\tproperty"
-			],
-			[
-				"back",
-				"background-size"
 			],
 			[
 				"tra",
@@ -292,10 +308,6 @@
 				"numberOfDice"
 			],
 			[
-				"for",
-				"for\tfor (…) {…}"
-			],
-			[
 				"fun",
 				"function"
 			],
@@ -335,7 +347,7 @@
 			"file": "starfleetrecruitment.html",
 			"settings":
 			{
-				"buffer_size": 2604,
+				"buffer_size": 3380,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html>"
@@ -345,7 +357,7 @@
 			"file": "styles.less",
 			"settings":
 			{
-				"buffer_size": 1410,
+				"buffer_size": 1800,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -437,6 +449,8 @@
 	},
 	"file_history":
 	[
+		"/home/paranoidangel/Projects/JavaScript30-master/04 - Array Cardio Day 1/index-START.html",
+		"/home/paranoidangel/Projects/JavaScript30-master/03 - CSS Variables/index-START.html",
 		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.css",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.html",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.css",
@@ -474,7 +488,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -522,15 +536,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2604,
+						"buffer_size": 3380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2532,
-								2532
+								1574,
+								1574
 							]
 						],
 						"settings":
@@ -539,7 +553,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 671.0,
+						"translation.y": 371.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -551,15 +565,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1410,
+						"buffer_size": 1800,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1385,
-								1385
+								323,
+								323
 							]
 						],
 						"settings":
@@ -567,7 +581,7 @@
 							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1215.0,
+						"translation.y": 11.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

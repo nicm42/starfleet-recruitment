@@ -1,5 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #9e9e9e;
+}
+a,
+a:visited,
+a:hover {
+  color: #ffeb3b;
+}
+nav {
+  background-color: black;
+  color: #fcf3cf;
+  font-family: 'Exo', sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 .hero {
   height: 90vh;
@@ -41,6 +57,7 @@ h3 {
 .careers {
   display: flex;
   text-align: center;
+  overflow: hidden;
 }
 .carousel {
   background-color: white;
@@ -51,6 +68,14 @@ h3 {
   color: black;
   font-size: 200px;
   align-self: center;
+  position: absolute;
+  cursor: pointer;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
 }
 .starmap {
   text-align: center;
@@ -91,5 +116,9 @@ h3 {
 #vulcan {
   left: 34%;
   top: 29%;
+}
+footer {
+  background-color: black;
+  color: #fcf3cf;
 }
 /*# sourceMappingURL=styles.min.css.map */

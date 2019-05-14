@@ -8,29 +8,34 @@
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet"> 
 </head>
 <body>
+	<nav>
+		<a href="#careers">Careers</a>
+		<a href="#qualities">Qualities</a>
+		<a href="#locations">Locations</a>
+	</nav>
 	<header class="hero">
 		<div class="hero-text">
 		<h1>Starfleet</h1>
 		<h2>Ex Astris, Scientia</h2></div>
 	</header>
 	<main>
-		<section class="command">
+		<section class="command" id="careers">
 			<h3 class="yellow"><img src="./images/command.png">Career Paths</h3>
 			<article class="careers">
-				<div class="arrow"><</div>
-				<div class="carousel" id="command"><img src="./images/command.jpg" alt="Command"><br>Command</div>
-				<div class="carousel" id="communications"><img src="./images/communications.jpg" alt="Communications"><br>Communications</div>
-				<div class="carousel" id="diplomacy"><img src="./images/diplomacy.jpg" alt="Diplomacy"><br>Diplomacy</div>
-				<div class="carousel" id="engineering"><img src="./images/engineering.jpg" alt="Engineering"><br>Engineering</div>
-				<div class="carousel" id="medical"><img src="./images/medical.jpg" alt="Medical"><br>Medical</div>
-				<div class="carousel" id="intelligence"><img src="./images/intelligence.jpg" alt="Intelligence"><br>Intelligence</div>
-				<div class="carousel" id="operations"><img src="./images/operations.jpg" alt="Operations"><br>Operations</div>
-				<div class="carousel" id="science"><img src="./images/science.jpg" alt="Science"><br>Science</div>
-				<div class="carousel" id="security"><img src="./images/security.jpg" alt="Security"><br>Security</div>
-				<div class="arrow">></div>
+				<div class="arrow left"><img src="./images/leftarrow.png" alt="Scroll left"></div>
+				<figure class="carousel" id="command"><img src="./images/command.jpg" alt="Command"><br><figcaption>Command</figcaption></figure>
+				<figure class="carousel" id="communications"><img src="./images/communications.jpg" alt="Communications"><br><figcaption>Communications</figcaption></figure>
+				<figure class="carousel" id="diplomacy"><img src="./images/diplomacy.jpg" alt="Diplomacy"><br><figcaption>Diplomacy</figcaption></figure>
+				<figure class="carousel" id="engineering"><img src="./images/engineering.jpg" alt="Engineering"><br><figcaption>Engineering</figcaption></figure>
+				<figure class="carousel" id="medical"><img src="./images/medical.jpg" alt="Medical"><br><figcaption>Medical</figcaption></figure>
+				<figure class="carousel" id="intelligence"><img src="./images/intelligence.jpg" alt="Intelligence"><br><figcaption>Intelligence</figcaption></figure>
+				<figure class="carousel" id="operations"><img src="./images/operations.jpg" alt="Operations"><br><figcaption>Operations</figcaption></figure>
+				<figure class="carousel" id="science"><img src="./images/science.jpg" alt="Science"><br><figcaption>Science</figcaption></figure>
+				<figure class="carousel" id="security"><img src="./images/security.jpg" alt="Security"><br><figcaption>Security</figcaption></figure>
+				<div class="arrow right"><img src="./images/rightarrow.png" alt="Scroll right"></div>
 			</article>
 		</section>
-		<section class="ops">
+		<section class="ops" id="qualities">
 			<h3 class="blue"><img src="./images/science.png">Starfleet Qualities</h3>
 			<article>
 				Integrity
@@ -40,7 +45,7 @@
 				Leadership.
 			</article>
 		</section>
-		<section class="science">
+		<section class="science" id="locations">
 			<h3 class="red"><img src="./images/engineering.png">Starfleet Locations</h3>
 			<article class="starmap">
 				<img src="./images/starmap.jpg" alt="star map">
@@ -54,5 +59,8 @@
 		</article>
 		</section>
 	</main>
+	<footer>
+		More information on Starfleet at <a href="https://memory-alpha.fandom.com/wiki/Starfleet">Memory Alpha</a> and <a href="https://memory-beta.fandom.com/wiki/Federation_Starfleet">Memory Beta</a>
+	</footer>
 </body>
 </html>
