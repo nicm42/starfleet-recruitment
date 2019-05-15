@@ -1,20 +1,24 @@
 //Variables
 @images: "./images";
 @header-colour: #fcf3cf;
+@yellow: #ffeb3b;
+@red: #f44336;
+@blue: #2196f3;
+@grey: #cdcdcd;
+@black: #000000;
 
 html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color: #9e9e9e;
+	background-color: @grey;
 }
 a, a:visited, a:hover{
-	@header-colour: #fcf3cf;
-	color: #ffeb3b;
+	color: @yellow;
 }
 
 nav{
-	background-color: black;
+	background-color: @black;
 	color: @header-colour;
 	font-family: 'Exo', sans-serif;
 	position: fixed;
@@ -48,16 +52,43 @@ h2{
 	font-style: italic;
 }
 h3{
+	font-family: 'Exo', sans-serif;
 	font-size: 1.5em;
 }
 .red{
-	background-color: #f44336;
+	background-color: @red;
 }
 .yellow{
-	background-color: #ffeb3b;
+	background-color: @yellow;
 }
 .blue{
-	background-color: #2196f3;
+	background-color: @blue;
+}
+.section-header{
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+section{
+	padding-bottom: 5px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: 2px;
+	border-right-width: 2px;
+}
+.command{
+	border-left-color: @yellow;
+	border-right-color: @yellow;
+}
+.science{
+	border-left-color: @blue;
+	border-right-color: @blue;
+}
+.ops{
+	border-left-color: @red;
+	border-right-color: @red;
 }
 
 .careers{
@@ -85,18 +116,13 @@ h3{
 }
 
 .starmap{
-	//background: url("./images/starmap.jpg");
-	//background-repeat: no-repeat;
-	//background-size: 100%;
-	//background-position: center;
 	text-align: center;
-	position: relative;
 }
 .starmap img{
 	max-width: 100%;
 	height: auto;	
 }
 footer{
-	background-color: black;
+	background-color: @black;
 	color: @header-colour;
 }
