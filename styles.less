@@ -11,7 +11,8 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color: @grey;
+	background-color: @grey;	
+	font-family: 'Exo', sans-serif;
 }
 a, a:visited, a:hover{
 	color: @yellow;
@@ -20,8 +21,7 @@ a, a:visited, a:hover{
 nav{
 	background-color: @black;
 	color: @header-colour;
-	font-family: 'Exo', sans-serif;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	right: 0;
 }
@@ -41,9 +41,6 @@ nav{
 	text-align: center;	
 	text-shadow: 1px 1px 2px #0a0a0a;
 }
-header{
-	font-family: 'Exo', sans-serif;
-}
 h1{
 	font-size: 3em;
 }
@@ -52,7 +49,6 @@ h2{
 	font-style: italic;
 }
 h3{
-	font-family: 'Exo', sans-serif;
 	font-size: 1.5em;
 }
 .red{
@@ -89,6 +85,7 @@ section{
 .ops{
 	border-left-color: @red;
 	border-right-color: @red;
+	text-align: center;
 }
 
 .careers{
@@ -100,6 +97,7 @@ section{
 	background-color: white;
 	border: 1px solid black;
 	margin: 0 5px 0 5px;
+	width: 225px;
 }
 .arrow{
 	color: black;
@@ -114,6 +112,12 @@ section{
 .right{
 	right: 0;
 }
+.moveLeft{
+	transform: translateX(-235px);
+}
+.moveRight{
+	transform: translateX(235px);
+}
 
 .starmap{
 	text-align: center;
@@ -121,6 +125,10 @@ section{
 .starmap img{
 	max-width: 100%;
 	height: auto;	
+}
+#brochure-form{
+	display: inline-block;
+	text-align: right;
 }
 footer{
 	background-color: @black;

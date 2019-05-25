@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getElementsByClassName\tmethod"
+			],
+			[
+				"tr",
+				"translateX()\ttransform"
+			],
+			[
+				"border-left",
+				"border-left-color\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"E",
+				"Episilon"
+			],
+			[
+				"A",
+				"Aquilae"
+			],
+			[
 				"co",
 				"color\tproperty"
 			],
@@ -80,10 +108,6 @@
 				"container"
 			],
 			[
-				"tr",
-				"transitionTime"
-			],
-			[
 				"trans",
 				"transition-duration"
 			],
@@ -94,10 +118,6 @@
 			[
 				"reset",
 				"resetButton"
-			],
-			[
-				"get",
-				"getElementById"
 			],
 			[
 				"stop",
@@ -194,10 +214,6 @@
 			[
 				"team",
 				"team-photo"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"border",
@@ -347,7 +363,7 @@
 			"file": "starfleetrecruitment.html",
 			"settings":
 			{
-				"buffer_size": 3380,
+				"buffer_size": 3789,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html>"
@@ -357,7 +373,19 @@
 			"file": "styles.less",
 			"settings":
 			{
-				"buffer_size": 1800,
+				"buffer_size": 1978,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "const leftArrow = document.getElementById('arrow-left');\nconst rightArrow = document.getElementById('arrow-right');\n\nleftArrow.addEventListener('click', moveLeft);\nrightArrow.addEventListener('click', moveRight);\n\nlet carousel = document.getElementsByClassName('carousel');\n\nfunction moveLeft(){\n\tfor(var path of carousel){\n\t\t//path.classList.add('moveLeft');\n\t\tlet pathOffset = offset(path);\n\t\tnewLeft = pathOffset.left - 235;\n\t\t//console.log(newLeft);\n\t\t//path.style.left = newLeft;\n\t\tpath.style.transform = \"translateX(\"+newLeft+\"px)\";\n\t}\n}\n\nfunction moveRight(){\n\tfor(var path of carousel){\n\t\t//path.classList.add('moveRight');\n\t\t//let pathOffset = offset(path);\n\t\t//newRight = pathOffset.left + 235;\n\t\t//path.style.left = newRight;\n\t\tpath.style.transform = \"translateX(235px)\";\n\t}\n}\n\nfunction offset(el) {\n    var rect = el.getBoundingClientRect(),\n    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,\n    scrollTop = window.pageYOffset || document.documentElement.scrollTop;\n    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }\n}",
+			"file": "starfleet.js",
+			"file_size": 1074,
+			"file_write_time": 132032744410197321,
+			"settings":
+			{
+				"buffer_size": 1076,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -449,12 +477,12 @@
 	},
 	"file_history":
 	[
+		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
+		"/home/paranoidangel/Projects/Click the Dot/clickthedot.html",
 		"/home/paranoidangel/Projects/JavaScript30-master/04 - Array Cardio Day 1/index-START.html",
 		"/home/paranoidangel/Projects/JavaScript30-master/03 - CSS Variables/index-START.html",
 		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.css",
-		"/home/paranoidangel/Projects/Click the Dot/clickthedot.html",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.css",
-		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
 		"/home/paranoidangel/Projects/Shut The Box/index.html",
 		"/home/paranoidangel/Projects/DOM/access.html",
 		"/home/paranoidangel/Projects/Tribute/tribute.html",
@@ -502,6 +530,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exo",
+			"section",
+			"2196f3",
 			"cursor",
 			"stopdot",
 			"eventlistener",
@@ -527,7 +558,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -536,15 +567,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3380,
+						"buffer_size": 3789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1574,
-								1574
+								882,
+								882
 							]
 						],
 						"settings":
@@ -553,10 +584,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 371.0,
+						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -565,15 +596,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1800,
+						"buffer_size": 1978,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								323,
-								323
+								1764,
+								1764
 							]
 						],
 						"settings":
@@ -581,7 +612,43 @@
 							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 11.0,
+						"translation.y": 1481.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "starfleet.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
