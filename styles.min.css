@@ -4,6 +4,7 @@ html {
 body {
   background-color: #f2f3f4;
   font-family: 'Exo', sans-serif;
+  color: #000000;
 }
 a,
 a:visited,
@@ -129,9 +130,9 @@ section {
   width: 225px;
   position: relative;
   z-index: -1;
+  transition: all 1s;
 }
 .arrow {
-  color: black;
   font-size: 200px;
   align-self: center;
   position: absolute;
@@ -143,12 +144,12 @@ section {
   right: 0;
   cursor: pointer;
 }
-.moveLeft {
-  transform: translateX(-235px);
+/*.moveLeft{
+	transform: translateX(-235px);
 }
-.moveRight {
-  transform: translateX(235px);
-}
+.moveRight{
+	transform: translateX(235px);
+}*/
 .starmap {
   text-align: center;
 }

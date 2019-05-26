@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"cl",
+				"classList\tproperty"
+			],
+			[
+				"left",
+				"leftArrowImage\tconst"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"lig",
+				"light-red"
+			],
+			[
 				"get",
 				"getElementsByClassName\tmethod"
 			],
@@ -58,10 +78,6 @@
 			[
 				"min",
 				"min-height\tproperty"
-			],
-			[
-				"tra",
-				"transform\tproperty"
 			],
 			[
 				"in",
@@ -248,10 +264,6 @@
 				"skewX()"
 			],
 			[
-				"tran",
-				"transform"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -360,10 +372,20 @@
 	"buffers":
 	[
 		{
+			"file": "to do",
+			"settings":
+			{
+				"buffer_size": 261,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "When arrows are disabled, make them grey"
+			}
+		},
+		{
 			"file": "starfleetrecruitment.html",
 			"settings":
 			{
-				"buffer_size": 3789,
+				"buffer_size": 4045,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html>"
@@ -373,19 +395,16 @@
 			"file": "styles.less",
 			"settings":
 			{
-				"buffer_size": 1978,
+				"buffer_size": 3627,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "const leftArrow = document.getElementById('arrow-left');\nconst rightArrow = document.getElementById('arrow-right');\n\nleftArrow.addEventListener('click', moveLeft);\nrightArrow.addEventListener('click', moveRight);\n\nlet carousel = document.getElementsByClassName('carousel');\n\nfunction moveLeft(){\n\tfor(var path of carousel){\n\t\t//path.classList.add('moveLeft');\n\t\tlet pathOffset = offset(path);\n\t\tnewLeft = pathOffset.left - 235;\n\t\t//console.log(newLeft);\n\t\t//path.style.left = newLeft;\n\t\tpath.style.transform = \"translateX(\"+newLeft+\"px)\";\n\t}\n}\n\nfunction moveRight(){\n\tfor(var path of carousel){\n\t\t//path.classList.add('moveRight');\n\t\t//let pathOffset = offset(path);\n\t\t//newRight = pathOffset.left + 235;\n\t\t//path.style.left = newRight;\n\t\tpath.style.transform = \"translateX(235px)\";\n\t}\n}\n\nfunction offset(el) {\n    var rect = el.getBoundingClientRect(),\n    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,\n    scrollTop = window.pageYOffset || document.documentElement.scrollTop;\n    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }\n}",
 			"file": "starfleet.js",
-			"file_size": 1074,
-			"file_write_time": 132032744410197321,
 			"settings":
 			{
-				"buffer_size": 1076,
+				"buffer_size": 3112,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -436,7 +455,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: Remove Package"
 			],
 			[
 				"termain",
@@ -477,12 +496,13 @@
 	},
 	"file_history":
 	[
-		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.html",
+		"/home/paranoidangel/Projects/Click the Dot/clickthedot.css",
+		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.less",
+		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
 		"/home/paranoidangel/Projects/JavaScript30-master/04 - Array Cardio Day 1/index-START.html",
 		"/home/paranoidangel/Projects/JavaScript30-master/03 - CSS Variables/index-START.html",
 		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.css",
-		"/home/paranoidangel/Projects/Click the Dot/clickthedot.css",
 		"/home/paranoidangel/Projects/Shut The Box/index.html",
 		"/home/paranoidangel/Projects/DOM/access.html",
 		"/home/paranoidangel/Projects/Tribute/tribute.html",
@@ -558,24 +578,53 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "starfleetrecruitment.html",
+					"file": "to do",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3789,
+						"buffer_size": 261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								882,
-								882
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"auto_name": "When arrows are disabled, make them grey",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "starfleetrecruitment.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3624,
+								3624
 							]
 						],
 						"settings":
@@ -584,35 +633,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "styles.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1764,
-								1764
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1481.0,
+						"translation.y": 878.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -620,19 +641,48 @@
 				},
 				{
 					"buffer": 2,
-					"file": "starfleet.js",
+					"file": "styles.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1076,
+						"buffer_size": 3627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								636,
-								636
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "starfleet.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -648,10 +698,10 @@
 							"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 71.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

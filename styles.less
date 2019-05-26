@@ -16,6 +16,7 @@ html{
 body{
 	background-color: @grey;	
 	font-family: 'Exo', sans-serif;
+	color: @black;
 }
 a, a:visited, a:hover{
 	color: @yellow;
@@ -151,9 +152,9 @@ section{
 	width: 225px;
 	position: relative;
 	z-index: -1;
+	transition: all 1s;
 }
 .arrow{
-	color: black;
 	font-size: 200px;
 	align-self: center;
 	position: absolute;
@@ -165,11 +166,13 @@ section{
 	right: 0;
 	cursor: pointer;
 }
-.moveLeft{
+/*.moveLeft{
 	transform: translateX(-235px);
 }
 .moveRight{
 	transform: translateX(235px);
+}*/
+.animateMove{
 }
 
 .starmap{

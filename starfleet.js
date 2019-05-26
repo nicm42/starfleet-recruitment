@@ -13,6 +13,9 @@ function toggleMenu(){
 const leftArrow = document.getElementById('arrow-left');
 const rightArrow = document.getElementById('arrow-right');
 
+const leftArrowImage = document.getElementById('left-arrow-img');
+const rightArrowImage = document.getElementById('right-arrow-img');
+
 const command = document.getElementById('command');  //left-most career path
 const security = document.getElementById('security');  //right-most career path
 
@@ -26,41 +29,45 @@ leftArrow.addEventListener('click', moveLeft);
 rightArrow.addEventListener('click', moveRight);
 
 function moveLeft(){
-	//if Command is at position left <= 15 then disable left arrow
-	let commandPosition = offset(command);
-	let commandLeft = commandPosition.left;
+	if(!isInViewport(command)){
+		for(var i=0; i<carousel.length; i++){
+			pathOffset[i] += 235;
+			carousel[i].style.left = pathOffset[i] + "px";
+		}
+	}
 	//if command is visible, disable left arrow
 	if(isInViewport(command)){
 		leftArrow.removeEventListener('click',moveLeft);
 		leftArrow.style.cursor = 'auto';
-	}else{
-		for(var i=0; i<carousel.length; i++){
-			pathOffset[i] += 235;
-			carousel[i].style.left = pathOffset[i] + "px";
-		}		
+		leftArrowImage.src = "./images/leftarrow-deactivated.png";
 	}
 	//if security is invisible, enable right arrow
 	if(!isInViewport(security)){
 		rightArrow.addEventListener('click', moveRight);
 		rightArrow.style.cursor = 'pointer';
+		rightArrowImage.src = "./images/rightarrow.png";
 	}
 }
 
 function moveRight(){
-	//if security is visible, disable right arrow
-	if(isInViewport(security)){
-		rightArrow.removeEventListener('click',moveLeft);
-		rightArrow.style.cursor = 'auto';
-	}else{
+	if(!isInViewport(security)){
 		for(var i=0; i<carousel.length; i++){
+			var forced = carousel[i].scrollLeft; // Forces a redraw - doesn't work!
 			pathOffset[i] -= 235;
 			carousel[i].style.left = pathOffset[i] + "px";
 		}
 	}
-	//if command is invisible, enable right arrow
+	//if security is visible, disable right arrow
+	if(isInViewport(security)){
+		rightArrow.removeEventListener('click',moveRight);
+		rightArrow.style.cursor = 'auto';
+		rightArrowImage.src = "./images/rightarrow-deactivated.png";
+	}
+	//if command is invisible, enable left arrow
 	if(!isInViewport(command)){
 		leftArrow.addEventListener('click', moveLeft);
 		leftArrow.style.cursor = 'pointer';
+		leftArrowImage.src = "./images/leftarrow.png";
 	}
 }
 
