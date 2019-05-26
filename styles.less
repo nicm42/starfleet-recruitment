@@ -2,8 +2,11 @@
 @images: "./images";
 @header-colour: #fcf3cf;
 @yellow: #ffeb3b;
+@light-yellow: lighten(@yellow, 20%);
 @red: #f44336;
+@light-red: lighten(@red, 20%);
 @blue: #2196f3;
+@light-blue: lighten(@blue, 20%);
 @grey: #cdcdcd;
 @black: #000000;
 
@@ -66,14 +69,26 @@ h2{
 h3{
 	font-size: 1.5em;
 }
+/* gradient mixin */
+.horizontal-gradient (@startColour, @endColour) {
+ 	background-color: @startColour;
+	background-image: -webkit-gradient(linear, left top, right top, from(@startColour), to(@endColour));
+	background-image: -webkit-linear-gradient(left, @startColour, @endColour);
+	background-image: -moz-linear-gradient(left, @startColour, @endColour);
+	background-image: -ms-linear-gradient(left, @startColour, @endColour);
+	background-image: -o-linear-gradient(left, @startColour, @endColour);
+}
 .red{
 	background-color: @red;
+	.horizontal-gradient(@red, @light-red);
 }
 .yellow{
 	background-color: @yellow;
+	.horizontal-gradient(@yellow, @light-yellow);
 }
 .blue{
 	background-color: @blue;
+	.horizontal-gradient(@blue, @light-blue);
 }
 .section-header{
 	height: 50px;
