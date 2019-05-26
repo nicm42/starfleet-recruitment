@@ -2,14 +2,11 @@
 const menuHeader = document.getElementById('menu-header');
 const menu = document.getElementById('menu');
 menuHeader.addEventListener('click', toggleMenu);
-menu.addEventListener('click', hideMenu);
+menu.addEventListener('click', toggleMenu);
 
 function toggleMenu(){
 	menu.classList.toggle('hide');
 	menu.classList.toggle('show');
-}
-function hideMenu(){
-	menu.classList.add('hide');
 }
 
 /* Carousel */
