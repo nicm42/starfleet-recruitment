@@ -36,13 +36,34 @@ ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 5px;
+	//transition: height 1s, opacity 1s;
+	transition: height 0s 100ms, opacity 900ms 0s;
 }
 .hide{
-	display: none;	
+	//display: none;	
+	opacity: 0;
+	//visibility: hidden;
+	//position: absolute;
+	height: 0;
+	overflow: hidden;
+	//width: 0;
+	//transition: height 0s 500ms, opacity 500ms 0s;
 }
 .show{
-	display: block;	
+	//display: block;	
+	//position: static;
+	opacity: 1;
+	//visibility: visible;
+	//transition: opacity 1s linear;
+	//animation: fadeIn 1s;
+	height: 100%;
+	//width: 100%;
+	//transition: height 0s 0s, opacity 1s 0s;
 }
+/*@keyframes fadeIn{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}*/
 
 .hero{
 	height: 100vh;

@@ -25,13 +25,21 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 5px;
+  transition: height 0s 100ms, opacity 900ms 0s;
 }
 .hide {
-  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
 }
 .show {
-  display: block;
+  opacity: 1;
+  height: 100%;
 }
+/*@keyframes fadeIn{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}*/
 .hero {
   height: 100vh;
   background: url("./images/header.jpg");

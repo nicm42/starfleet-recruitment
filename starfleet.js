@@ -9,7 +9,7 @@ function toggleMenu(){
 	menu.classList.toggle('show');
 }
 function hideMenu(){
-	menu.style.display = "none";
+	menu.classList.add('hide');
 }
 
 /* Carousel */
