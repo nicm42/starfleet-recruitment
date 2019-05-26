@@ -7,7 +7,7 @@
 @light-red: lighten(@red, 20%);
 @blue: #2196f3;
 @light-blue: lighten(@blue, 20%);
-@grey: #cdcdcd;
+@grey: #f2f3f4;
 @black: #000000;
 
 html{
@@ -149,19 +149,21 @@ section{
 	border: 1px solid black;
 	margin: 0 5px 0 5px;
 	width: 225px;
+	position: relative;
+	z-index: -1;
 }
 .arrow{
 	color: black;
 	font-size: 200px;
 	align-self: center;
 	position: absolute;
-	cursor: pointer;
 }
 .left{
 	left: 0;
 }
 .right{
 	right: 0;
+	cursor: pointer;
 }
 .moveLeft{
 	transform: translateX(-235px);
