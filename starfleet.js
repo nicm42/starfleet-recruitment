@@ -1,3 +1,18 @@
+/* Menu */
+const menuHeader = document.getElementById('menu-header');
+const menu = document.getElementById('menu');
+menuHeader.addEventListener('click', toggleMenu);
+menu.addEventListener('click', hideMenu);
+
+function toggleMenu(){
+	menu.classList.toggle('hide');
+	menu.classList.toggle('show');
+}
+function hideMenu(){
+	menu.style.display = "none";
+}
+
+/* Carousel */
 const leftArrow = document.getElementById('arrow-left');
 const rightArrow = document.getElementById('arrow-right');
 
@@ -11,7 +26,7 @@ function moveLeft(){
 		//path.classList.add('moveLeft');
 		let pathOffset = offset(path);
 		newLeft = pathOffset.left - 235;
-		console.log(newLeft);
+		//console.log(newLeft);
 		//path.style.left = newLeft;
 		path.style.transform = "translateX("+newLeft+"px)";
 	}

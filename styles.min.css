@@ -13,9 +13,24 @@ a:hover {
 nav {
   background-color: #000000;
   color: #fcf3cf;
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
+}
+#menu-header {
+  cursor: pointer;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
 }
 .hero {
   height: 100vh;
