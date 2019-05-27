@@ -50,14 +50,14 @@
 				<form id="brochure-form">
 					<fieldset><legend>Fill in to receive a brochure</legend>
 						<label for="name">Name:</label><br><input type="text" id="name" name="name" placeholder="Name"><br>
-						<label for="email">Subspace address:</label><br><input type="email" id="email" name="email" placeholder="Subspace address" required><br>
+						<label for="email">Subspace address:</label><br><input type="email" id="email" name="email" placeholder="Subspace address" required>*<br>
 						<label for="species">Species:</label><br><select id="species" name="species">
 							<option value="human">Human</option>
 							<option value="vulcan">Vulcan</option>
 							<option value="klingon">Klingon</option>
 							<option value="other">Other</option>
 						</select><br>
-						<input type="submit" id="submit" name="submit" value="Submit">
+						<input type="button" id="submit" name="submitButton" value="Submit">
 					</fieldset>
 				</form>
 				<div id="submitted-form">Thanks. Your information has been submitted and you will receive a brochure by subspace.</div>
