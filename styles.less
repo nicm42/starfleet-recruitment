@@ -137,7 +137,7 @@ section{
 .ops{
 	border-left-color: @red;
 	border-right-color: @red;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .careers{
@@ -182,19 +182,28 @@ section{
 	max-width: 100%;
 	height: auto;	
 }
-
+.ops-brochure{
+	display: flex;
+	justify-content: center;
+	//position: relative;
+}
 #brochure-form{
 	display: inline-flex;
-	text-align: left;
+	/*text-align: left;*/
 	background-color: #e5e7e9;
+	//position: absolute;
 }
 #submit{
-	text-align: center;
+	/*text-align: center;*/
 	margin-top: 5px;
 	background-color: @light-red;
 	border: 1px solid @red;
 	padding: 0.5em 1.5em;
 	border-radius: 0.5em;
+}
+#submitted-form{
+	visibility: hidden;
+	position: absolute;
 }
 
 footer{

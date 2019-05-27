@@ -46,11 +46,11 @@
 		</section>
 		<section class="ops" id="brochure">
 			<div class="red section-header"><img src="./images/engineering.png"><h3>Brochure</h3></div>
-			<article>
+			<article class="ops-brochure">
 				<form id="brochure-form">
 					<fieldset><legend>Fill in to receive a brochure</legend>
 						<label for="name">Name:</label><br><input type="text" id="name" name="name" placeholder="Name"><br>
-						<label for="email">Subspace address:</label><br><input type="email" id="email" name="email" placeholder="Subspace address" required>*<br>
+						<label for="email">Subspace address:</label><br><input type="email" id="email" name="email" placeholder="Subspace address" required><br>
 						<label for="species">Species:</label><br><select id="species" name="species">
 							<option value="human">Human</option>
 							<option value="vulcan">Vulcan</option>
@@ -60,6 +60,7 @@
 						<input type="submit" id="submit" name="submit" value="Submit">
 					</fieldset>
 				</form>
+				<div id="submitted-form">Thanks. Your information has been submitted and you will receive a brochure by subspace.</div>
 			</article>
 		</section>
 	</main>

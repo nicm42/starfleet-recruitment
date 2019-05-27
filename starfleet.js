@@ -35,13 +35,13 @@ function moveLeft(){
 			carousel[i].style.left = pathOffset[i] + "px";
 		}
 	}
-	//if command is visible, disable left arrow
+	//if command is now visible, disable left arrow
 	if(isInViewport(command)){
 		leftArrow.removeEventListener('click',moveLeft);
 		leftArrow.style.cursor = 'auto';
 		leftArrowImage.src = "./images/leftarrow-deactivated.png";
 	}
-	//if security is invisible, enable right arrow
+	//if security is now invisible, enable right arrow
 	if(!isInViewport(security)){
 		rightArrow.addEventListener('click', moveRight);
 		rightArrow.style.cursor = 'pointer';
@@ -57,13 +57,14 @@ function moveRight(){
 			carousel[i].style.left = pathOffset[i] + "px";
 		}
 	}
-	//if security is visible, disable right arrow
+	var forced = carousel[0].scrollLeft; // Forces a redraw - doesn't work!
+	//if security is now visible, disable right arrow
 	if(isInViewport(security)){
 		rightArrow.removeEventListener('click',moveRight);
 		rightArrow.style.cursor = 'auto';
 		rightArrowImage.src = "./images/rightarrow-deactivated.png";
 	}
-	//if command is invisible, enable left arrow
+	//if command is now invisible, enable left arrow
 	if(!isInViewport(command)){
 		leftArrow.addEventListener('click', moveLeft);
 		leftArrow.style.cursor = 'pointer';
@@ -93,3 +94,14 @@ var isInViewport = function (elem) {
 		distance.right <= (window.innerWidth || document.documentElement.clientWidth)
 	);
 };
+
+/* Form */
+const submit = document.getElementById('submit');
+const brocureForm = document.getElementById('brochure-form');
+const submittedForm = document.getElementById('submitted-form');
+submit.addEventListener('click', submitForm);
+
+function submitForm(){
+	brocureForm.style.visibility = "hidden";
+	submittedForm.style.visibility = "visible";
+}
