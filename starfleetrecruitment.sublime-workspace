@@ -4,20 +4,124 @@
 		"selected_items":
 		[
 			[
-				"con",
-				"container"
+				"cl",
+				"classList\tproperty"
 			],
 			[
-				"in",
-				"initialSize"
+				"left",
+				"leftArrowImage\tconst"
 			],
 			[
 				"tra",
-				"transitionTime"
+				"transition\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"lig",
+				"light-red"
+			],
+			[
+				"get",
+				"getElementsByClassName\tmethod"
 			],
 			[
 				"tr",
-				"transitionTime"
+				"translateX()\ttransform"
+			],
+			[
+				"border-left",
+				"border-left-color\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"E",
+				"Episilon"
+			],
+			[
+				"A",
+				"Aquilae"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"que",
+				"querySelectorAll\t(selector: string) => NodeList<HTMLElement>"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"inv",
+				"inventor\tany"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"t",
+				"transform\tproperty"
+			],
+			[
+				"di",
+				"diplomacy"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"header",
+				"header-colour"
+			],
+			[
+				"f",
+				"fcf3cf"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"sty",
+				"styles"
+			],
+			[
+				"con",
+				"container"
 			],
 			[
 				"trans",
@@ -30,10 +134,6 @@
 			[
 				"reset",
 				"resetButton"
-			],
-			[
-				"get",
-				"getElementById"
 			],
 			[
 				"stop",
@@ -112,10 +212,6 @@
 				"keydown"
 			],
 			[
-				"back",
-				"background-size"
-			],
-			[
 				"flex-",
 				"flex-flow"
 			],
@@ -128,20 +224,12 @@
 				"repeat-x"
 			],
 			[
-				"bac",
-				"background-size"
-			],
-			[
 				"backgro",
 				"background-image"
 			],
 			[
 				"team",
 				"team-photo"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"border",
@@ -176,10 +264,6 @@
 				"skewX()"
 			],
 			[
-				"tran",
-				"transform"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -200,20 +284,12 @@
 				"max-width"
 			],
 			[
-				"flex",
-				"flex-wrap"
-			],
-			[
 				"paddng",
 				"padding-left"
 			],
 			[
 				"fig",
 				"figcaption\tTag"
-			],
-			[
-				"di",
-				"div\tTag"
 			],
 			[
 				"d",
@@ -260,10 +336,6 @@
 				"numberOfDice"
 			],
 			[
-				"for",
-				"for\tfor (…) {…}"
-			],
-			[
 				"fun",
 				"function"
 			],
@@ -300,34 +372,94 @@
 	"buffers":
 	[
 		{
+			"file": "to do",
+			"settings":
+			{
+				"buffer_size": 261,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "When arrows are disabled, make them grey"
+			}
+		},
+		{
 			"file": "starfleetrecruitment.html",
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 4045,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html>"
 			}
+		},
+		{
+			"file": "styles.less",
+			"settings":
+			{
+				"buffer_size": 3627,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "starfleet.js",
+			"settings":
+			{
+				"buffer_size": 3112,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/lessc/lessc.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					""
+				],
+				[
+					"Packages/LESS-build/LESS.sublime-build",
+					"Minify"
+				]
+			],
+			[
+				"Packages/LESS-build/LESS.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/lessc/lessc.sublime-build",
+					""
+				],
+				[
+					"Packages/lessc/lessc.sublime-build",
+					"Non-Minified"
+				]
+			],
+			[
+				"Packages/lessc/lessc.sublime-build",
+				"Non-Minified"
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 154.0,
-		"last_filter": "termain",
+		"height": 374.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"termain",
-				"Terminal View: Open Bash Terminal"
+				"Package Control: ",
+				"Package Control: Remove Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Install Package"
+				"termain",
+				"Terminal View: Open Bash Terminal"
 			],
 			[
 				"install",
@@ -365,8 +497,12 @@
 	"file_history":
 	[
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.html",
-		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
 		"/home/paranoidangel/Projects/Click the Dot/clickthedot.css",
+		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.less",
+		"/home/paranoidangel/Projects/Click the Dot/clickthedot.js",
+		"/home/paranoidangel/Projects/JavaScript30-master/04 - Array Cardio Day 1/index-START.html",
+		"/home/paranoidangel/Projects/JavaScript30-master/03 - CSS Variables/index-START.html",
+		"/home/paranoidangel/Projects/Starfleet Recruitment/styles.css",
 		"/home/paranoidangel/Projects/Shut The Box/index.html",
 		"/home/paranoidangel/Projects/DOM/access.html",
 		"/home/paranoidangel/Projects/Tribute/tribute.html",
@@ -400,7 +536,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -414,6 +550,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exo",
+			"section",
+			"2196f3",
 			"cursor",
 			"stopdot",
 			"eventlistener",
@@ -444,19 +583,48 @@
 			[
 				{
 					"buffer": 0,
-					"file": "starfleetrecruitment.html",
+					"file": "to do",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"auto_name": "When arrows are disabled, make them grey",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "starfleetrecruitment.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3624,
+								3624
 							]
 						],
 						"settings":
@@ -465,10 +633,75 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
+						"translation.y": 878.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "starfleet.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -476,7 +709,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -509,15 +742,19 @@
 	{
 		"height": 0.0
 	},
+	"output.exec":
+	{
+		"height": 108.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/lessc/lessc.sublime-build",
 	"project": "starfleetrecruitment.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
