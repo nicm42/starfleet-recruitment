@@ -6,4 +6,4 @@ I created this to practise LESS, which I recently learnt. I also tried out creat
 
 I like LESS, it makes the CSS less repeating and more like a programming language in the use of functions. At first thoughts the carousel was hard, but upon thinking about it, it was pretty easy to establish how to get it to work.
 
-Also on codepen at https://codepen.io/nicm42/full/qGKLov
+Also on codepen at https://codepen.io/nicm42/full/qGKLov (but codepen version doesn't work on mobile)
